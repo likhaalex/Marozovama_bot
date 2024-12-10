@@ -14,7 +14,7 @@ user_state = {}
 async def send_welcome(message: types.Message):
     await message.answer("Что могу сделать для тебя?\n\n"
                          
-                         "/help - Список доступных команд и фраз\n")
+                         "/help - Список доступных команд\n")
 
 @dp.message(Command('help'))
 async def send_help(message: types.Message):
