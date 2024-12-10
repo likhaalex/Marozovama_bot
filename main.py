@@ -22,8 +22,7 @@ async def send_help(message: types.Message):
                          "/help - Список команд\n"
                          "Привет - Поздороваюсь\n"
                          "Как дела? - Расскажу как у меня дела\n"
-                         "Пока - Попрощаюсь\n\n"
-                         "Напиши любую из этих фраз, и я отреагирую!")
+                         "Пока - Попрощаюсь\n")
     
 @dp.message()
 async def handle_message(message: types.Message):
