@@ -20,7 +20,7 @@ async def send_welcome(message: types.Message):
 async def send_help(message: types.Message):
     await message.answer("Вот что я могу: \n\n"
                          "/help - Список команд\n"
-                         "Привет - Поздороваюсь"
+                         "Привет - Поздороваюсь\n"
                          "Как дела? - Расскажу как у меня дела\n"
                          "Пока - Попрощаюсь\n\n"
                          "Напиши любую из этих фраз, и я отреагирую!")
